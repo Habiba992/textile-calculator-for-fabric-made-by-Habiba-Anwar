@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tex.css">
+    <link rel="stylesheet" href="tex.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>Textile Cost Calculator for fabric</h1>
+        
+        <label for="length">Length (meters):</label>
+        <input type="number" id="length" placeholder="Enter length">
+
+        <label for="width">Width (meters):</label>
+        <input type="number" id="width" placeholder="Enter width">
+
+        <label for="costPerSquareMeter">Cost per Square Meter:</label>
+        <input type="number" id="costPerSquareMeter" placeholder="Enter cost per square meter">
+
+        <label for="wastage">Wastage (%):</label>
+        <input type="number" id="wastage" placeholder="Enter wastage percentage">
+
+        <button onclick="calculateCost()">Calculate Cost</button>
+        
+        <div id="result"></div>
+    </div>
+    <script src="tex.js"></script>
+
+    
+</body>
+</html>
